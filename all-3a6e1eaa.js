@@ -4601,8 +4601,7 @@ $(document).ready(function() {
     successClass: '',
     errorClass: 'has-error',
 
-    // Return the `$element` that will receive these above success or error classes
-    // Could also be (and given directly from DOM) a valid selector like `'#div'`
+   
     classHandler: function(parsleyField) {
       return parsleyField.$element.closest(".form-group");
     },
